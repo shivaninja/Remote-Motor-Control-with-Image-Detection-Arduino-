@@ -1,4 +1,4 @@
-# Remote-Motor-Control-with-Image-Detection-Arduino-
+# Remote-Motor-Control-with-Image-Detection-Arduino , OpenCV, MediaPipe and Pyserial
 Control a servo motor in real-time using hand gestures detected by your webcam! This project uses MediaPipe for hand tracking, OpenCV for video capture and visualization, and an Arduino to control the servo motor.
 
 # Overview
