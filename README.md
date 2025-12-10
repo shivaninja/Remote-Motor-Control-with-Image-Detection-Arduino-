@@ -1,6 +1,8 @@
 # This RIPO contains two projects that can be connected together or used independently. 
-# 1. Remote-Motor-Control-with-Image-Detection using  Arduino , OpenCV, MediaPipe and Pyserial
-# 2. LED-Control-with-Image-Detection using  Arduino , OpenCV, MediaPipe and Pyserial
+
+# Project 1. Remote-Motor-Control-with-Image-Detection using  Arduino , OpenCV, MediaPipe and Pyserial
+
+# Project 2. LED-Control-with-Image-Detection using  Arduino , OpenCV, MediaPipe and Pyserial
 
 
 # PART 1: Servomotor control using Image Detection 
