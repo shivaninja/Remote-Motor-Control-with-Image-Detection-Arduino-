@@ -3,14 +3,14 @@
 # 2. LED-Control-with-Image-Detection using  Arduino , OpenCV, MediaPipe and Pyserial
 
 
-# Servomotor control using Image Detection 
+# PART 1: Servomotor control using Image Detection 
 Control a servo motor in real-time using hand gestures detected by your webcam! This project uses MediaPipe for hand tracking, OpenCV for video capture and visualization, and an Arduino to control the servo motor.
 
-# Overview
+## Overview
 
 This project demonstrates a simple hand gesture-controlled servo motor system. The distance between your wrist and middle fingertip is tracked via webcam, and this distance is mapped to a servo angle (0–180°). Moving your hand closer or farther changes the servo's rotation in real-time.
 
-# Hardware Requirements
+## Hardware Requirements
 
 Arduino Uno (or compatible board)
 
@@ -24,7 +24,7 @@ Breadboard (optional)
 
 Webcam
 
-# Software Requirements
+## Software Requirements
 
 Arduino IDE
 
@@ -38,7 +38,7 @@ mediapipe
 
 pyserial
 
-# Install Python dependencies using:
+## Install Python dependencies using:
 
 ```
 
@@ -46,15 +46,15 @@ pip install opencv-python mediapipe pyserial
 
 ```
 
-# Setup Instructions
+## Setup Instructions
 
-## Arduino
+### Arduino
 
 Connect the servo signal pin to D9, VCC to 5V, and GND to GND on Arduino.
 
 Connect Arduino to your computer via USB.
 
-# Upload the following Arduino sketch. NOTE:This code does not support I2C OLED Display. Use this if you Don't want Display
+## Upload the following Arduino sketch. NOTE:This code does not support I2C OLED Display. Use this if you Don't want Display
 
 ```
 #include <Servo.h>
@@ -80,7 +80,7 @@ void loop() {
 
 ```
 
-# This code supports I2C OLED Display. Use this if you want Display
+## This code supports I2C OLED Display. Use this if you want Display
 ```
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -142,8 +142,8 @@ void loop() {
 
 
 ```
-#Below is the python that for OpenCV for Media processing & Mediapipe for Machine learning Image Detection.
-# Arduino serial library to connect opencv & MediaPipe with arduino  
+## Below is the python that for OpenCV for Media processing & Mediapipe for Machine learning Image Detection.
+## Arduino serial library to connect opencv & MediaPipe with arduino  
 
 ```
 
@@ -201,8 +201,7 @@ arduino.close()
 cv2.destroyAllWindows()
 
 ```
-
-# How It Works
+## How It Works
 
 Hand Detection: MediaPipe detects your hand landmarks in real-time.
 
