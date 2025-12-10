@@ -49,7 +49,7 @@ Connect the servo signal pin to D9, VCC to 5V, and GND to GND on Arduino.
 
 Connect Arduino to your computer via USB.
 
-# Upload the following Arduino sketch: This code does not support I2C OLED Display Use this if you Don't want Display
+# Upload the following Arduino sketch. NOTE:This code does not support I2C OLED Display. Use this if you Don't want Display
 
 ```
 #include <Servo.h>
@@ -75,7 +75,7 @@ void loop() {
 
 ```
 
-# This code supports I2C OLED Display Use this if you want Display
+# This code supports I2C OLED Display. Use this if you want Display
 ```
 #include <Wire.h>
 #include <Adafruit_GFX.h>
